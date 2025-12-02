@@ -34,3 +34,7 @@ rm -rf .git
 git init
 git remote add origin 주소~
 git checkout -b main
+
+# 한 번 commit 된 파일은 추적이 되고 있어서 ignore 되지 않는다.
+# 추적하는 캐시를 지우고 다시 git add . 부터 하면 됨.
+git rm -r --cached .
