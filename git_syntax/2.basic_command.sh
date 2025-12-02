@@ -22,3 +22,4 @@ git add test_folder/test1.txt
 # commit 이력 조회
 git log
 
+git commit -m "title" -m "content"
