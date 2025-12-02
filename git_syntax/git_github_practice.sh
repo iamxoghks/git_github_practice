@@ -16,3 +16,7 @@ git config --list
 # git 프로젝트 생성 방법
 # 1. github repo to local -> clone
 # 2. local to github repo -> upload
+    # 2-1) .git 폴더 생성
+        git init
+    # 2-2) 원격지 주소 추가
+        git remote add origin 주소~
