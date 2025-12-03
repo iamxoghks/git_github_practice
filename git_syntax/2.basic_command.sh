@@ -80,7 +80,11 @@ git branch feat/member_list
 # 브랜치 목록 조회
 git branch 
 # 특정 브랜치로 전환
-git chekcout 브랜치명
+git checkout 브랜치명
+# branch 생성과 동시에 전환
+git branch -b 브랜치명
+# 로컬 branch 삭제(원격은 별도로 삭제)
+git branch -D 브랜치명
 
 
 #############
@@ -88,4 +92,5 @@ git chekcout 브랜치명
 # main checkout + pull -> main 최신화!
 # feat branch 생성
 # github repogitory에서 pull request!
-# 
+
+test11
