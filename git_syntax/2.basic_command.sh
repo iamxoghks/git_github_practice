@@ -92,5 +92,6 @@ git branch -D 브랜치명
 # main checkout + pull -> main 최신화!
 # feat branch 생성
 # github repogitory에서 pull request!
-
-test11
+# feat branch 에서 작업 후 origin feat/~~~ 에 push
+# 원격에서 PR
+# 작업 완료 후 feat/~~~ branch 삭제(local + github)
