@@ -68,3 +68,8 @@ git reset HEAD^
 # 이미 push된 commit 사항을 되돌리기 위해 새로운 commit을 실행하는 것.
 # 기존 commit 삭제 아님!
 git revert commitID
+
+# 작업 중인 사항을 임시 저장
+git stash
+# 임시 저장한 작업사항을 다시 적용
+git stash pop
