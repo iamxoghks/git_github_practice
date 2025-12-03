@@ -50,3 +50,12 @@ git checkout 커밋ID
 # 특정 branch로 전환
 git checkout 브랜치name
 
+# pull은 원격사항을 local로 내려받는 것(fetch+merge)
+git pull origin main
+# fetch는 변경사항을 local로 가져오되, 병합은 하지 않는 것
+git fetch origin main
+
+# commit Id, 또는 branch 사이의 비교 명령어
+git diff commitID1 commitID2
+git diff branch1 branch2
+
