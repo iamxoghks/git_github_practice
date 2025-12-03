@@ -63,4 +63,7 @@ git diff branch1 branch2
 # 1. directory -> ctl + z
 # 2. staging area -> UI
 # 3. local repo -> commit id 발생 -> commit id 취소
+git reset HEAD~1
+git reset --soft HEAD~1
+git reset HEAD^
 # 4. origin repo -> push 취소? -> 직전 commit 뒤집는 commit 생성 -> key 는 노출되었으므로 새로...
