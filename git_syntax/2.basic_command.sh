@@ -43,4 +43,10 @@ git log --all
 git push origin 브랜치명
 # 충돌 방생시 충돌 무시하고, 로컬 기준의 코드를 원격에 덮어쓰기
 # 절대 쓰면 안 됨
-git push origin 브랜치명 --force 
+git push origin 브랜치명 --force
+
+# 특정 commit ID로 전환
+git checkout 커밋ID
+# 특정 branch로 전환
+git checkout 브랜치name
+
