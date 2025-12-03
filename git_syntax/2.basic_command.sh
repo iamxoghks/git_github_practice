@@ -73,3 +73,19 @@ git revert commitID
 git stash
 # 임시 저장한 작업사항을 다시 적용
 git stash pop
+
+# 브랜치 생성
+# 현재 checkout 되어 있는 브랜치를 기준으로 새로운 브랜치 생성
+git branch feat/member_list
+# 브랜치 목록 조회
+git branch 
+# 특정 브랜치로 전환
+git chekcout 브랜치명
+
+
+#############
+# role 담당
+# main checkout + pull -> main 최신화!
+# feat branch 생성
+# github repogitory에서 pull request!
+# 
